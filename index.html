@@ -1,100 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">      
 </head>
 <body>
-    <header>
-        <div class="header">
-            <nav>
-                <div class="logo"><img src="image/iconeayrlla1.png" alt="Logo"></div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="banner">
-                <div class="side1">
-                    <h1>Olá! Eu sou <span>Ayrlla Gabriela!</span></h1>
-                    <p> Venha conhecer mais sobre mim!.</p>
-                    <button>Learn more</button>
-                </div>
+    <div class="header">
+        <nav>
+            <div class="logo"><img src="image/" alt=""></div> 
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#projects">Projects</a></li>
+			    </ul>
             </div>
-        </div>
-    </header>
-    <div class="side2">
-        <img src="image/img(1.0).png" alt="Imagem">
+        </nav>
+        <div class="banner"> 
+            <div class="side-1">
+                <h1>I'm System <span>Developer Analyst!</span></h1>
+            <p>Vamos falar sobre mim?</p>            
+            <button type="button">Saber Mais </button>
+            </div>
+            <div class="side-2">
+                <img src="image/iconeperfil.foto.png" alt="">
+            </div>
+        </div>        
     </div>
-    
+
     <div id="about" class="about section-padding">
         <div class="about-content">
-            <img src="image/img(2.1).png" alt="Imagem">
-        </div>
-        <div class="about-text">
-            <h2><span>Front-end Developer Professional</span></h2>
-            <p>Eu sou desenvolvedora front-end, designer de UX/UI e mobile. Como desenvolvedora front-end e designer UX/UI, minha paixão é transformar ideias em experiências digitais impactantes e inesquecíveis. Dedico-me a criar interfaces que são intuitivas e visualmente cativantes. Além disso, meu interesse pela área de mobile apps me permite levar essa paixão para novos territórios, desenvolvendo soluções móveis que facilitam a vida das pessoas e surpreendem a cada toque.</p>
-            <a href="#">Learn More</a>
+            <div class="about-img">
+                <img src="image/colagemayrlla (2).png" alt="">
+            </div>
+            <div class="about-text">
+                <h2><span>Professional</span> Front-end Developer</h2>
+                <p>Como desenvolvedora front-end e designer de UX/UI, minha paixão é criar interfaces digitais que são tanto esteticamente atraentes quanto altamente funcionais. Busco constantemente novas maneiras de surpreender e facilitar a vida dos usuários, especialmente no mundo dos aplicativos móveis.
+
+                </p>
+                <a href="#">Saber Mais</a>
+            </div>
         </div>
     </div>
 
-    <div id="services" class="services section-padding">
-        <div class="section header">
-            <h2>Our <span>Services</span></h2>
-            <p>Lorem ipsum</p>
+    <section id="s-projects" class="section-projects">
+        <div class="grid-layout">
+          <div class="section-header">
+            <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
+          </div>
+          <div id="projects">
+            <article class="single-project intervalCardReveal teslabank">
+              <div class="icon-area">
+                <i class="fa fa-window-restore"></i>
+              </div>
+              <h3>Contador</h3>
+              <p>
+                About
+Criando um Componente Funcional com Vite. 
+              </p>
+              <a href="https://github.com/Ayrlla/Contador" rel="noopener" target="_blank" id="teslabank">Visualizar projeto</a>
+            </article>
+            
+            <article class="single-project intervalCardReveal naped">
+              <div class="icon-area">
+                <i class="fa fa-window-restore"></i>
+              </div>
+              <h3>Cruzeiro</h3>
+              <p>
+                Desafio de Lógica de Programação
+              </p>
+              <a href="https://github.com/Ayrlla/CruzeiroMariah" rel="noopener" target="_blank" id="naped">Visualizar projeto</a>
+            </article>
+            
+            <article class="single-project intervalCardReveal efront">
+              <div class="icon-area">
+                <i class="fa fa-window-restore"></i>
+              </div>
+              <h3>Projeto Site Fantastika</h3>
+              <p>
+                Página de um Petshop.
+              </p>
+              <a href="https://github.com/Ayrlla/ProjetoFantastika" rel="noopener" target="_blank" id="efront">Visualizar projeto</a>
+            </article>
+            
+            <article class="single-project intervalCardReveal steam">
+              <div class="icon-area">
+                <i class="fa fa-window-restore"></i>
+              </div>
+              <h3>Em construção</h3>
+              <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
+              
+            </article>
+            
+            <article class="single-project intervalCardReveal none">
+              <div class="icon-area">
+                <i class="fa fa-coffee"></i>
+              </div>
+              <h3>Em construção...</h3>
+              <p>
+                Pegue o café e espere um pouco, estou desenvolvendo o projeto.
+              </p>
+            </article>
+            
+          </div>
+          <a href="https://github.com/Ayrlla?tab=repositories" rel="noopener" target="_blank" class="delayExtraBigReveal">Repositórios no GitHub</a>
         </div>
+      </section>
+      
 
-        <div class="services content">
+
+    <div id="services" class="services section-padding">
+        <div class="section-header">
+            <h2>Meus <span>Serviços.</span></h2>
+        
+        </div>
+        <div class="services-content">
             <div class="single-service">
                 <div class="icon-area">
                     <i class="fa fa-laptop"></i>
                 </div>
-                <h2>Front-end</h2>
-                <p>Lorem ipsum</p>
-                <a href="#">Learn More</a>
+                <h2>Front-end Developer</h2>
+                <p>Minha expertise inclui o uso de frameworks como React e Vue.js, combinados com HTML5, CSS3 e JavaScript, para desenvolver experiências digitais modernas e envolventes.</p>
+                <a href="#">Saber Mais</a>
             </div>
-
             <div class="single-service">
                 <div class="icon-area">
                     <i class="fa fa-umbrella"></i>
                 </div>
-                <h2>Ui/Ux Design</h2>
-                <p>Lorem ipsum</p>
-                <a href="#">Learn More</a>
+                <h2>UI / UX Design</h2>
+                <p>Utilizo ferramentas como Adobe XD, Figma, Sketch e InVision para prototipar e visualizar designs, colaborar com equipes e testar a usabilidade antes da implementação.</p>
+                <a href="#">Saber Mais</a>
             </div>
-
             <div class="single-service">
                 <div class="icon-area">
                     <i class="fa fa-mobile"></i>
                 </div>
                 <h2>Mobile Developer</h2>
-                <p>Lorem ipsum</p>
-                <a href="#">Learn More</a>
+                <p>Sou uma desenvolvedora mobile iniciante, dedicada a aprender e crescer na plataforma Android. Tenho habilidades básicas em Java e Kotlin, familiarizada com o ambiente de desenvolvimento Android Studio. </p>
+                <a href="#">Saber Mais</a>
             </div>
         </div>
     </div>
 
     <div id="contact" class="contact section-padding">
         <div class="section-header">
-            <h2>Contact <span>us</span></h2>
-            <p>lorem ipsum</p>
+            <h2>Contact <span>us.</span></h2>
+            <p>Alguma dúvida? Entre em contato!</p>
         </div>
         <div class="contact-content">
-            <div class="single-content">
-                <label for="">Your Name</label>
-                <input type="text" placeholder="Enter your Name. . .">
-                <label for="">Your Email</label>
-                <input type="email" placeholder="Enter your Email. . .">
-                <label for="">Your Question</label>
-                <input type="text" placeholder="Enter your Query. . .">
-                <a href="#"> Send now</a>
+            <div class="single-contact">
+                <label>Seu nome</label>
+                <input type="text" placeholder="Enter Your Name ...">
+                <label>Seu E-mail</label>
+                <input type="email" placeholder="Enter Your E-mail ...">
+                <label>Sua pergunta</label>
+                <input type="text" placeholder="Enter Your Question ...">
+                <a href="#">Send Now</a>
             </div>
         </div>
     </div>
@@ -102,14 +168,21 @@
     <footer class="section-padding">
         <p>All Right Reserved by @AyrllaGabriela</p>
         <div class="socials">
-            <i class="fa fa-linkedin"></i>
-            <i class="fa fa-behance"></i>
-        </div>
+          <a href="https://www.linkedin.com/in/ayrlla-gabriela-68372226a/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.behance.net/ayrllagabriela" target="_blank"><i class="fa fa-behance"></i></a>
+          <a href="https://github.com/Ayrlla" target="_blank"><i class="fa fa-github"></i></a>
+      </div>
+      
+      
     </footer>
+    
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">&#9650;</button>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
+
+
+
+
